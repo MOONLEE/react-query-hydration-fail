@@ -1,5 +1,5 @@
 # React-Query-Hydration-Fail
-When gcTime is zero in app router, it make Hydration Fail
+When gcTime is zero in app router, it make Hydration Fail   
 If you use page router, it is not happen 
 
 ![img.png](img.png)
