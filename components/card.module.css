@@ -1,0 +1,5 @@
+.box {display: block;margin:60px auto; max-width: 600px }
+.card { display: block;width:100%;padding:20px 10px;}
+.card .title {font-size: 16px;color:red;}
+.card .content {font-size: 10px;}
+.card .date {font-size:9px;color:#ddd;}
