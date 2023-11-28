@@ -14,6 +14,9 @@ export default function MainCard() {
             return await axiosProxy.get<CardType[], CardType[]>('/api/data')
         },
     })
+
+    console.log(`query status [${new Date().getTime()}]: ${status} `)
+
     let content : CardType[] = [];
     if (status === 'success' && data) {
         content = data;
