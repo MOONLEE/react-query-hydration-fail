@@ -1,3 +1,6 @@
+'use client'
+
+
 import {useClientNextApiProxy} from "@/libs/axios/client";
 import {useQuery} from "@tanstack/react-query";
 import {Card, CardBox, CardType} from "@/components/card";

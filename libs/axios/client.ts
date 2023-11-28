@@ -1,3 +1,6 @@
+'use client'
+
+
 import axios, {AxiosError, AxiosResponse, InternalAxiosRequestConfig} from 'axios';
 import qs from "qs";
 

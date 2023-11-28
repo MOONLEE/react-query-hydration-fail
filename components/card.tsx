@@ -1,3 +1,6 @@
+
+'use client'
+
 import {PropsWithChildren} from "react";
 import styles from './card.module.css'
 
