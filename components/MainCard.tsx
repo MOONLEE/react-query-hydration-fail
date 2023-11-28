@@ -15,7 +15,7 @@ export default function MainCard() {
         },
     })
 
-    console.log(`query status [${new Date().getTime()}]: ${status} `)
+    // console.log(`query status [${new Date().getTime()}]: ${status} `)
 
     let content : CardType[] = [];
     if (status === 'success' && data) {
@@ -24,7 +24,6 @@ export default function MainCard() {
 
     return (
         <>
-            <div>test</div>
             <CardBox>
                 {content.map(one => (<Card
                         key={one.name}
